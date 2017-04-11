@@ -16,7 +16,7 @@ cachesolve <- function(x, ...) {
 	ivs <- x$getivs()
 	
 	if (!is.null(inv)) {
-		message("cached matrix exist!)
+		message("cached matrix exist!")
 		return(ivs)
 	}
 	
